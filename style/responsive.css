@@ -72,7 +72,9 @@
         width: 250px;
         margin: 10px;
     }
-
+.buy_btn{
+        width: 100%;
+    }
 
 
     /******************* Search bar Styling ******************/
