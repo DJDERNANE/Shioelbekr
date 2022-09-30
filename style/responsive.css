@@ -75,7 +75,9 @@
 .buy_btn{
         width: 100%;
     }
-
+.swiper-button-prev2, .swiper-button-prev3, .swiper-button-next2, .swiper-button-next3{
+        display: none;
+    }
 
     /******************* Search bar Styling ******************/
     .search form input{
