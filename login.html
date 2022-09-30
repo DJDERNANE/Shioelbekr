@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/responsive.css">
+    
+</head>
+<body>
+<header>
+
+
+<div class="head">
+    <div class="logo">
+        <img src="imgs/logo.png" alt="">
+    </div>
+    <div class="toggle" id="toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    
+    
+</div>
+<div class="navigation" id="navigation">
+        <ul>
+                <li><a href="index.html#home" class="homelink">Home</a> </li>
+                <li><a href="">Favorite</a> </li>
+                <li><a href="addproduct.html" class="addlink">Add Product</a> </li>
+                
+                <li><a href="index.html#footer">Contact Us</a> </li>
+        </ul>
+        <div class="btn">
+            <a href="signup.html"><button>Sign in </button></a>
+            <div></div>
+            <a href="login.html"><button>Log in </button></a>
+           
+        </div>
+    </div>      
+</header>
+
+
+
+   <div class="container login ">
+        <h1> LOG-IN</h1>
+        <form action="">
+            <div>
+                <label for="email">Email :</label>
+            </div>
+            <div >
+                <input type="text" placeholder="exemple@gmail.com" id="email">
+            </div>
+            <div>
+                <label for="password">Password : </label>
+            </div>
+            <div class="passzone">
+                <input class="pass" type="password" name="" id="password" placeholder="**************">
+                <i class="bi  bi-eye-fill" onmouseover="showpass()" onmouseout="hidpass()"></i>
+            </div>
+            <div class="remmber">
+                <span>
+                    <input type="checkbox" id="remmber" class="check">
+                    <label for="remmber">Remmber me</label>
+                </span>
+                <span>
+                    <a href="">Forget your password ?</a>
+                </span>
+            </div>
+            <div >
+                <input type="submit" value="Log-in" class="submit">
+            </div>
+        </form>
+        <div class="create">
+            <a href="signup.html">You dont have an account ? creat one</a>
+        </div>
+   </div>
+
+
+   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+   <script src="JS/script.js"></script>
+  <script src="JS/script1.js"></script>
+
+</body>

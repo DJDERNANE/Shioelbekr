@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/responsive.css">
+  
+    
+    
+</head>
+<body id="home">
+  <header>
+
+
+    <div class="head">
+        <div class="logo">
+            <img src="imgs/logo.png" alt="">
+        </div>
+        <div class="toggle" id="toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        
+        
+    </div>
+    <div class="navigation" id="navigation">
+            <ul>
+                    <li><a href="index.html#home" class="homelink">Home</a> </li>
+                    <li><a href="">Favorite</a> </li>
+                    <li><a href="addproduct.html" class="addlink">Add Product</a> </li>
+                    
+                    <li><a href="index.html#footer">Contact Us</a> </li>
+            </ul>
+            <div class="btn">
+                <a href="signup.html"><button>Sign in </button></a>
+                <div></div>
+                <a href="login.html"><button>Log in </button></a>
+               
+            </div>
+        </div>      
+</header>
+
+<div class="search">
+  <form action="">
+  <button><i class="bi bi-search"></i></button>
+      <input type="text" placeholder="Search for products...">
+      
+  </form>
+</div>
+<div class="home">
+  <div class="cat">
+    <div class="swiper mySwiper2 slider1">
+          <div class="swiper-wrapper">
+          <div class="swiper-slide">
+                        <a href="">
+                            <div>
+                                <img src="imgs/cat1.svg" alt="">
+                            </div>
+                            
+                            <p>Clothes</p>
+                        </a>
+                    
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <div>
+                                <img src="imgs/cat5.svg" alt="">
+                            </div>
+                            
+                            <p>Smart Watches</p>
+                        </a>
+                    
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <div>
+                                <img src="imgs/cat2.svg" alt="">
+                            </div>
+                            
+                            <p>TV</p>
+                        </a>
+                    
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <div>
+                                <img src="imgs/cat3.svg" alt="">
+                            </div>
+                            
+                            <p>Computers</p>
+                        </a>
+                    
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <div>
+                                <img src="imgs/cat4.svg" alt="">
+                            </div>
+                            
+                            <p>School Tools</p>
+                        </a>
+                    
+                    </div>
+                    
+                    <div class="swiper-slide">
+                        <a href="">
+                            <div>
+                                <img src="imgs/cat6.svg" alt="">
+                            </div>
+                            
+                            <p>Video Game</p>
+                        </a>
+                    
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <div>
+                                <img src="imgs/cat7.svg" alt="">
+                            </div>
+                            
+                            <p>Appliances</p>
+                        </a>
+                    
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <div>
+                                <img src="imgs/cat8.svg" alt="">
+                            </div>
+                            
+                            <p>Phone</p>
+                        </a>
+                    
+                    </div>    
+          </div>
+          </div>
+    </div>
+      
+        <div class=" swiper-button-next1"> <img src="imgs/R.svg" alt=""></div>
+        <div class=" swiper-button-prev1"> <img src="imgs/L.svg" alt=""></div>
+</div>
+
+
+<div class="fond">
+  <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="imgs/front.png" alt=""></div>
+          <div class="swiper-slide"><img src="imgs/front1.png" alt=""></div>
+          <div class="swiper-slide"><img src="imgs/front2.png" alt=""></div>
+          <div class="swiper-slide"><img src="imgs/front3.png" alt=""></div>
+        
+        </div>
+        <div class="swiper-pagination"></div>
+        
+      </div>
+</div>
+   
+
+
+
+<div class="most_common container" id="most_common">
+  <h2>Most Common</h2>
+  <div class="addbtn">
+      <a href="allproducts.html">Show All</a>
+  </div>
+  <div class="racine">
+
+  
+      <div class="swiper mySwiper3 s2 content">
+          <div class="swiper-wrapper">
+          <div class="swiper-slide swiper-slide2">
+              <div  class="cart">
+                      <i class="bi bi-heart-fill bi-heart" onclick="liked(this)"  ></i>
+                      <div>
+                          <a href="proDetails.html"><img class="product" src="imgs/p1.svg" alt=""></a>
+                      </div> 
+                      <h3>Title</h3>
+                      <p class="desc">descruption</p>
+                      <p class="price">711 <span>DA</span></p>
+              </div>
+          </div>
+          <div class="swiper-slide swiper-slide2">
+          <div class="cart">
+                  <i class=" bi bi-heart-fill bi-heart" onclick="liked(this)"></i>
+                  <div>
+                      <a href="proDetails.html"><img class="product" src="imgs/p2.svg" alt=""></a>
+                      
+                  </div> 
+                  <h3>Title</h3>
+                  <p class="desc">descruption</p>
+                  <p class="price">711 <span>DA</span></p>
+</div>
+          </div>
+          <div class="swiper-slide swiper-slide2"> 
+          <div  class="cart">
+                  <i class="bi bi-heart-fill bi-heart" onclick="liked(this)" ></i>
+                  <div>
+                      <a href="proDetails.html"><img class="product" src="imgs/p3.svg" alt=""></a>
+                      
+                  </div> 
+                  <h3>Title</h3>
+                  <p class="desc">descruption</p>
+                  <p class="price">711 <span>DA</span></p>
+</div>
+          </div>
+          <div class="swiper-slide swiper-slide2">
+          <div  class="cart">
+                  <i class="bi bi-heart-fill bi-heart" onclick="liked(this)" ></i>
+                  <div>
+                      <a href="proDetails.html">
+                      <img class="product" src="imgs/p6.svg" alt=""></a>
+                  </div> 
+                  <h3>Title</h3>
+                  <p class="desc">descruption</p>
+                  <p class="price">711 <span>DA</span></p>
+</div>
+          </div>
+          <div class="swiper-slide swiper-slide2">
+          <div  class="cart">
+                  <i class="bi bi-heart-fill bi-heart" onclick="liked(this)" ></i>
+                  <div>
+                      <a href="proDetails.html">
+                      <img class="product" src="imgs/p2.svg" alt=""></a>
+                  </div> 
+                  <h3>Title</h3>
+                  <p class="desc">descruption</p>
+                  <p class="price">711 <span>DA</span></p>
+          </div>
+          </div>
+          
+          </div>
+          
+          
+      </div>
+      <div class=" swiper-button-prev2"> <img src="imgs/L.svg" alt=""></div>
+          <div class=" swiper-button-next2"> <img src="imgs/R.svg" alt=""></div>
+  </div>
+</div>
+
+
+<div class="pub">
+  <img src="imgs/pub.png" alt="">
+</div>
+
+ 
+
+
+
+<div class="most_common container">
+  <h2>Weekly Offers</h2>
+  <div class="addbtn">
+      <a href="">Show All</a>
+  </div>
+  <div class="racine1">
+
+  
+      <div class="swiper mySwiper4 s4 content">
+          <div class="swiper-wrapper">
+          <div class="swiper-slide swiper-slide2">
+          <div  class="cart">
+                      <i class="bi bi-heart-fill bi-heart" onclick="liked(this)"></i>
+                      <div>
+                          <a href="proDetails.html">
+                          <img class="product" src="imgs/p1.svg" alt=""></a>
+                      </div> 
+                      <h3>Title</h3>
+                      <p class="desc">descruption</p>
+                      <p class="price">711 <span>DA</span> <span class="promotion"> -40% </span></p>
+</div>
+          </div>
+          <div class="swiper-slide swiper-slide2">
+          <div class="cart">
+                  <i class="bi bi-heart-fill bi-heart" onclick="liked(this)"></i>
+                  <div>
+                      <a href="proDetails.html">
+                      <img class="product" src="imgs/p2.svg" alt=""></a>
+                  </div> 
+                  <h3>Title</h3>
+                  <p class="desc">descruption</p>
+                  <p class="price">711 <span>DA</span> <span class="promotion"> -40% </span></p>
+</div>
+          </div>
+          <div class="swiper-slide swiper-slide2"> 
+          <div class="cart">
+                  <i class="bi bi-heart-fill bi-heart" onclick="liked(this)"></i>
+                  <div>
+                      <a href="proDetails.html">
+                      <img class="product" src="imgs/p3.svg" alt=""></a>
+                  </div> 
+                  <h3>Title</h3>
+                  <p class="desc">descruption</p>
+                  <p class="price">711 <span>DA</span> <span class="promotion"> -40% </span></p>
+</div>
+          </div>
+          <div class="swiper-slide swiper-slide2"> 
+          <div  class="cart">
+                  <i class="bi bi-heart-fill bi-heart" onclick="liked(this)"></i>
+                  <div>
+                      <a href="proDetails.html">
+                      <img class="product" src="imgs/p6.svg" alt=""></a>
+                  </div> 
+                  <h3>Title</h3>
+                  <p class="desc">descruption</p>
+                  <p class="price">711 <span>DA</span> <span class="promotion"> -40% </span></p>
+</div>
+          </div>
+          <div class="swiper-slide swiper-slide2"> 
+          <div  class="cart">
+                  <i class="bi bi-heart-fill bi-heart" onclick="liked(this)"></i>
+                  <div>
+                      <a href="proDetails.html">
+                      <img class="product" src="imgs/p2.svg" alt=""></a>
+                  </div> 
+                  <h3>Title</h3>
+                  <p class="desc">descruption</p>
+                  <p class="price">711 <span>DA</span> <span class="promotion"> -40% </span> </p> 
+</div>
+          </div>
+          
+          </div>
+          
+          
+      </div>
+      <div class="swiper-button-prev4"> <img src="imgs/L.svg" alt=""></div>
+          <div class="swiper-button-next4"> <img src="imgs/R.svg" alt=""></div>
+  </div>
+</div>
+
+
+
+
+<div class="footer " id="footer">
+  <div class="title">
+      <h1 titre="contact">Contact Us</h1>
+  </div>
+  <div class="info">
+      <div class="contact">
+          <h2 titre="add">Address</h2>
+          <div class="location">
+              <a href="" target="_blank"> <i class="bi bi-geo-alt-fill"></i> Algeria </a>
+          </div>
+          <div class="tlf">
+              <a> <i class="bi bi-telephone-fill"></i> +213 1234567  </a>
+          </div>
+          <div class="email" >
+              <a href="" target="_blank"> <i class="bi bi-whatsapp"></i> WhatsApp</a>
+          </div>
+          <div class="email" >
+              <a> <i class="bi bi-envelope-fill"></i>elbaker@gmail.com </a>
+          </div>
+      </div>
+      <div class="contact">
+          <h2 titre="follow">FOLLOW US</h2>
+          <div class="location">
+              <a href="" target="_blank"> <i class="bi bi-facebook"></i> Facebook </a>
+          </div>
+          <div class="tlf">
+              <a href="" target="_blank"> <i class="bi bi-instagram"></i>Instgram </a>
+          </div>
+          <div class="email" >
+              <a> <i class="bi bi-linkedin"></i> LinkedIn </a>
+          </div>
+      </div>
+      
+      <div class="contact">
+          <h2 titre="more">More</h2>
+          <div class="location">
+              <a href="" titre="abouttitle">Home</a>
+          </div>
+          <div class="tlf">
+              <a href="" titre ="team">Favorite </a>
+          </div>
+          <div class="email" >
+              <a href="" titre="services"> Add Product</a>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+
+
+
+   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  <script src="JS/script.js"></script>
+  <script src="JS/script1.js"></script>
+  
+</body>
+</html>
